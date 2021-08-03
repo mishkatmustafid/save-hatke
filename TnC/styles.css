@@ -1,0 +1,10 @@
+body {
+  background-color: #e5e5e5;
+}
+.wrapper {
+  position: relative;
+  width: 320px;
+  height: 600px;
+  background: #faf8ff;
+  margin: auto;
+}
