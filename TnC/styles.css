@@ -4,7 +4,128 @@ body {
 .wrapper {
   position: relative;
   width: 320px;
-  height: 600px;
-  background: #faf8ff;
+  height: 530px;
+  background: #ffffff;
   margin: auto;
+}
+.title {
+  position: absolute;
+  width: 265px;
+  height: 33px;
+  left: 28px;
+  top: 47px;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+
+  /* identical to box height */
+  letter-spacing: 0.035em;
+
+  color: #082337;
+}
+.window {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.29) 0%,
+    rgba(255, 255, 255, 0.33) 100%
+  );
+  mix-blend-mode: normal;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(100px);
+
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 15px;
+}
+.content {
+  position: absolute;
+  width: 243px;
+  height: 310px;
+  left: 15px;
+  top: 80px;
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.035em;
+
+  color: rgba(8, 35, 55, 0.8);
+
+  mix-blend-mode: normal;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(100px);
+
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 15px;
+}
+.bar {
+  position: absolute;
+  width: 6px;
+  height: 329px;
+  left: 301px;
+  top: 95px;
+
+  background: #495765;
+  border-radius: 5px;
+}
+.scroll {
+  position: absolute;
+  width: 11.2px;
+  height: 53.56px;
+  left: 298px;
+  top: 121.78px;
+
+  background: #1d80c9;
+  border-radius: 5px;
+}
+.accept {
+  position: absolute;
+  width: 132.8px;
+  height: 35.2px;
+  left: 170px;
+  top: 461px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  border: 0px;
+
+  /* identical to box height */
+  letter-spacing: 0.035em;
+  color: #ffffff;
+
+  background: #1d80c9;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.decline {
+  position: absolute;
+  width: 132.8px;
+  height: 35.2px;
+  left: 17px;
+  top: 461px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  border: 0px;
+
+  /* identical to box height */
+  letter-spacing: 0.035em;
+
+  color: #1d80c9;
+
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
 }
