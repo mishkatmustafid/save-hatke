@@ -4,7 +4,84 @@ body {
 .wrapper {
   position: relative;
   width: 320px;
-  height: 600px;
-  background: #faf8ff;
+  height: 530px;
+  background: #ffffff;
   margin: auto;
+}
+.img {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  top: 16px;
+  left: 28px;
+}
+.title {
+  position: absolute;
+  width: 200px;
+  height: 35px;
+  left: 37px;
+  top: 286px;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.035em;
+
+  color: #082337;
+}
+.text {
+  position: absolute;
+  width: 242px;
+  height: 67px;
+  left: 37px;
+  top: 337px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.035em;
+
+  color: rgba(8, 35, 55, 0.8);
+}
+.button {
+  position: absolute;
+  width: 166px;
+  height: 44px;
+  left: 37px;
+  top: 444px;
+
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+  border: 0px;
+}
+#getstarted {
+  position: absolute;
+  width: 100px;
+  height: 21px;
+  left: 16px;
+  top: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  letter-spacing: 0.035em;
+
+  color: #1d80c9;
+}
+#arrow {
+  position: absolute;
+  left: 135px;
+  top: 15px;
+  /* left: 53.75%; */
+  /* right: 41.25%; */
+  /* top: 86.6%; */
+  /* bottom: 11.06%; */
 }
