@@ -3,8 +3,275 @@ body {
 }
 .wrapper {
   position: relative;
-  width: 320px;
-  height: 600px;
-  background: #faf8ff;
+  width: 250px;
+  height: 400px;
+  background: #1d80c9;
   margin: auto;
+  border: 200px #000;
+}
+.titlebar {
+  position: absolute;
+  width: 250px;
+  height: 37px;
+  left: 0px;
+  top: 0px;
+  background: #1d80c9;
+}
+.logo {
+  position: absolute;
+  width: 21.7px;
+  height: 21.7px;
+  left: 6px;
+  top: 7.49px;
+}
+.title {
+  position: absolute;
+  width: 128px;
+  height: 20px;
+  left: 35px;
+  top: -12px;
+
+  font-family: Black Han Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.035em;
+
+  color: #ffffff;
+}
+.close {
+  position: absolute;
+  left: 90%;
+  top: 25%;
+}
+.main {
+  position: absolute;
+  width: 244px;
+  height: 178px;
+  left: 3px;
+  top: 37px;
+
+  background-color: #fff;
+}
+.last-updated {
+  position: absolute;
+  width: 163px;
+  height: 12px;
+  left: 58px;
+  top: -5px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+
+  /* identical to box height */
+  letter-spacing: 0.035em;
+
+  color: #ff0000;
+
+  mix-blend-mode: normal;
+}
+.product-title {
+  position: absolute;
+  width: 178px;
+  height: 28px;
+  left: 58px;
+  top: 15px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 0.035em;
+
+  color: #082337;
+}
+.product-image {
+  position: absolute;
+  width: 35px;
+  height: 47.02px;
+  left: 15px;
+  top: 23px;
+}
+.product-company {
+  position: absolute;
+  width: 74px;
+  height: 27px;
+  left: 162px;
+  top: 65px;
+}
+.product-price {
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 58px;
+  top: 55px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.035em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #082337;
+}
+
+.availability {
+  position: absolute;
+  width: 47px;
+  height: 13px;
+  left: 104px;
+  top: 80px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 11px;
+  border: 2px solid #11a249;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 2px;
+  /* identical to box height */
+
+  color: #11a249;
+}
+.spectrum-bar {
+  position: absolute;
+  left: 46px;
+  top: 125px;
+}
+.spectrum-cursor {
+  position: absolute;
+  left: 146px;
+  top: 118px;
+}
+.price-analytics {
+  position: absolute;
+  width: 180px;
+  height: 12px;
+  left: 35px;
+  top: 155px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  border: 0px;
+  background-color: transparent;
+
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.035em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #f47521;
+}
+.hover-button {
+  position: absolute;
+  height: 20px;
+  width: 250px;
+  top: 215px;
+
+  border: 0px;
+  background-color: transparent;
+}
+.down-arrow {
+  position: absolute;
+  left: 118px;
+  top: 19px;
+  z-index: 1;
+}
+.stores {
+  position: absolute;
+  top: -10px;
+  left: 35px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.035em;
+
+  color: #082337;
+}
+.price-level {
+  position: absolute;
+  width: 14px;
+  height: 7px;
+  /* left: 39px; */
+  top: 133px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6px;
+  line-height: 7px;
+
+  /* identical to box height */
+  letter-spacing: 0.035em;
+
+  color: #000000;
+}
+.price-amount {
+  position: absolute;
+  width: 23px;
+  height: 7px;
+  /* left: 34px; */
+  top: 140px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 7px;
+
+  /* identical to box height */
+  letter-spacing: 0.035em;
+
+  color: #000000;
+}
+.banner {
+  position: absolute;
+  width: 244px;
+  height: 162px;
+  left: 3px;
+  top: 235px;
+  background-color: #b72125;
+}
+.ad {
+  position: absolute;
+  left: 55px;
+  top: 10px;
+}
+.toggle {
+  position: absolute;
+  width: 20px;
+  height: 120px;
+  top: 169px;
+  left: 250px;
+
+  background: #1d80c9;
+  border: 0px;
+  border-radius: 5px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 81.19%;
+  writing-mode: vertical-lr;
+  /* text-orientation: upright; */
+
+  /* or 11px */
+
+  color: #ffffff;
 }
