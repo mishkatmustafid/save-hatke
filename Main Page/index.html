@@ -14,7 +14,23 @@
     <title>Static Template</title>
   </head>
   <body>
-    <div class="wrapper">
+    <script>
+      function Function() {
+        var x = document.getElementById("list");
+        var y = document.getElementById("btn");
+        var z = document.getElementById("wrapper");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          y.style.display = "block";
+          z.style.height = "530px";
+        } else {
+          x.style.display = "none";
+          y.style.display = "none";
+          z.style.height = "400px";
+        }
+      }
+    </script>
+    <div class="wrapper" id="wrapper">
       <div class="titlebar">
         <img class="logo" src="../assets/img/logo_sm.png" alt="Logo" />
         <p class="title">Save Hatke</p>
@@ -42,7 +58,7 @@
           Click here to check price analytics
         </button>
       </div>
-      <button class="hover-button">
+      <button class="hover-button" onclick="Function()">
         <p class="stores">Available in 5 other stores</p>
         <img
           class="down-arrow"
@@ -54,6 +70,43 @@
         <img class="ad" src="../assets/img/mcdonalds.png" alt="Advertisement" />
       </div>
       <button class="toggle">Save Hatke</button>
+      <div class="product-list" id="list">
+        <div class="products" style="position: absolute">
+          <p class="updated">Last Updated : July 30th, 2:11 AM</p>
+          <img src="../assets/img/amazon.png" alt="amazon" />
+          <p class="price">₹92.00</p>
+          <p class="availability">INSTOCK</p>
+        </div>
+        <div class="products" style="top: 55px">
+          <div class="hr"></div>
+          <p class="updated">Last Updated : July 30th, 2:11 AM</p>
+          <img src="../assets/img/aliexpress.png" alt="aliexpress" />
+          <p class="price">₹92.00</p>
+          <p class="availability" id="out">OUT OF STOCK</p>
+        </div>
+        <div class="products" style="top: 60px">
+          <div class="hr"></div>
+          <p class="updated">Last Updated : July 30th, 2:11 AM</p>
+          <img src="../assets/img/daraz.png" alt="daraz" />
+          <p style="height: 15px" class="price">₹92.00</p>
+          <p class="availability">INSTOCK</p>
+        </div>
+        <div class="products" style="top: 70px">
+          <div class="hr"></div>
+          <p class="updated">Last Updated : July 30th, 2:11 AM</p>
+          <img src="../assets/img/daraz.png" alt="daraz" />
+          <p class="price">₹92.00</p>
+          <p class="availability" id="out">OUT OF STOCK</p>
+        </div>
+        <div class="products" style="top: 80px">
+          <div class="hr"></div>
+          <p class="updated">Last Updated : July 30th, 2:11 AM</p>
+          <img src="../assets/img/aliexpress.png" alt="aliexpress" />
+          <p class="price">₹92.00</p>
+          <p class="availability" id="out">OUT OF STOCK</p>
+        </div>
+      </div>
+      <button id="btn" onclick="Function()">Hide Stores</button>
     </div>
   </body>
 </html>
