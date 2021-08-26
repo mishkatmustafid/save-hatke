@@ -4,16 +4,548 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <title>Static Template</title>
   </head>
-  <body>
-    <div class="wrapper"></div>
+  <body
+    style="
+      background-color: #e5e5e5;
+      font-family: Roboto;
+      letter-spacing: 0em;
+      line-height: 0px;
+    "
+  >
+    <div
+      class="wrapper"
+      style="
+        position: relative;
+        width: 320px;
+        height: 530px;
+        background: #fff;
+        margin: auto;
+      "
+    >
+      <div
+        class="success"
+        style="
+          position: absolute;
+          width: 256px;
+          height: 350px;
+          left: 32px;
+          top: 90px;
+          background: #fff;
+          display: none;
+        "
+      >
+        <h1
+          style="
+            position: absolute;
+            width: 68.8px;
+            height: 22.4px;
+            left: 85px;
+            top: 15px;
+
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 22px;
+            letter-spacing: 0.035em;
+
+            color: #082337;
+          "
+        >
+          Success
+        </h1>
+        <img
+          style="position: absolute; top: 100px; left: 55px"
+          src="../assets/img/success.png"
+          alt=""
+        />
+        <p
+          style="
+            position: absolute;
+            width: 127.37px;
+            height: 14px;
+            left: 65px;
+            top: 205px;
+
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 14px;
+
+            /* identical to box height */
+            letter-spacing: 0.005em;
+
+            color: #7e7e7e;
+          "
+        >
+          Updated Successfully
+        </p>
+        <button
+          style="
+            position: absolute;
+            width: 120px;
+            height: 35.2px;
+            top: 285px;
+            left: 68px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.035em;
+            color: #fff;
+            background-color: #1d80c9;
+            border: 0px;
+            box-shadow: 0px 1px 5px 1px #1d80c9;
+          "
+        >
+          Continue
+        </button>
+      </div>
+      <div
+        class="otp"
+        style="
+          position: absolute;
+          width: 256px;
+          height: 350px;
+          left: 32px;
+          top: 90px;
+          background: #fff;
+          display: none;
+        "
+      >
+        <img
+          style="position: absolute; height: 100px; top: 40px; left: 98px"
+          src="../assets/img/otp.png"
+          alt=""
+        />
+        <p
+          style="
+            position: absolute;
+            width: auto;
+            height: 15.66px;
+            left: 75px;
+            top: 140px;
+
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 0em;
+
+            color: #495765;
+          "
+        >
+          OTP verification
+        </p>
+        <p
+          style="
+            position: absolute;
+            width: 256px;
+            height: 13.26px;
+            left: 25px;
+            top: 173px;
+
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 14px;
+
+            /* identical to box height */
+            letter-spacing: 0em;
+
+            color: #495765;
+          "
+        >
+          Enter OTP code sent to
+          <span style="font-weight: bold">+880 123 456 7890</span>
+        </p>
+        <span>
+          <span
+            style="
+              width: 28px;
+              height: 29.31px;
+              border: 2px solid #0e153a;
+              box-sizing: border-box;
+              border-radius: 15px;
+            "
+            >1</span
+          >
+          <img src="../assets/img/circular_input.png" />
+          <span
+            style="
+              background-image: url('../assets/img/circular_input.png');
+              background-size: cover;
+              width: 50px;
+              height: 50px;
+            "
+            >2</span
+          >
+          <span>3</span>
+        </span>
+        <p
+          style="
+            position: absolute;
+            width: auto;
+            height: 13.26px;
+            left: 65px;
+            top: 240px;
+
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 13px;
+            letter-spacing: 0em;
+
+            color: #495765;
+          "
+        >
+          Didn't receive OTP code?
+        </p>
+        <p
+          style="
+            position: absolute;
+            width: 37.6px;
+            height: 13.26px;
+            left: 108px;
+            top: 257px;
+
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 14px;
+
+            /* identical to box height */
+            letter-spacing: 0em;
+            text-decoration-line: underline;
+
+            color: #495765;
+          "
+        >
+          Resend
+        </p>
+        <button
+          style="
+            position: absolute;
+            width: 200px;
+            height: 32.42px;
+            left: 27px;
+            top: 294px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.035em;
+
+            color: #ffffff;
+
+            background: #1d80c9;
+            border: 0px;
+            box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+          "
+        >
+          Verify and update
+        </button>
+      </div>
+      <div
+        class="blue-top"
+        style="
+          position: absolute;
+          width: 320px;
+          height: 160px;
+          background-color: #1d80c9;
+          z-index: 2;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          font-family: Roboto Condensed;
+          text-align: center;
+          font-weight: bold;
+          font-size: 14px;
+          color: #faf8ff;
+        "
+      >
+        <p
+          style="
+            font-size: 25px;
+            color: #faf8ff;
+            margin-left: -30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          "
+        >
+          Ribhujeet Das
+        </p>
+        <p style="padding-left: 0px">
+          <img src="../assets/img/icon4.png" />&nbsp; ribhujeetdas@gmail.com
+        </p>
+        <p style="margin-left: -50px">
+          <img
+            style="margin-bottom: -2.5px"
+            src="../assets/img/icon5.png"
+          />&nbsp; +880 123 456 7890
+        </p>
+        <img
+          onclick = Function()
+          style="position: relative; left: 145px; top: 14px"
+          src="../assets/img/icon6.png"
+        />
+      </div>
+      <div
+        class="container"
+        style="
+          position: absolute;
+          top: 160px;
+          width: 290px;
+          height: 370px;
+          background-color: #fff;
+          padding-left: 15px;
+          padding-right: 15px;
+        "
+      >
+        <h4
+          style="
+            font-weight: 500;
+            font-size: 16px;
+            margin-left: 45px;
+            margin-top: 25px;
+          "
+        >
+          Top Products Viewed By You
+        </h4>
+        <hr style="width: 290px; color: rgba(220,217,217, 0.4);"></hr>
+        <div style="width: 290px; height: 55px; background-color: #fff;margin-bottom:-20px">
+          <p style="font-size: 10px; color: #83919b; padding-left: 70px">
+            Last Updated : July 30th, 2:11 AM
+          </p>
+          <img src="../assets/img/amazon.png" alt="amazon" />
+          <p
+            style="
+              position: relative;
+              top: -29px;
+              left: 120px;
+              font-family: Roboto;
+              font-size: 12px;
+              color: #082337;
+            "
+          >
+            ₹92.00
+          </p>
+          <p
+            style="
+              position: relative;
+              width: 47px;
+              height: 13px;
+              top: -49px;
+              left: 230px;
+
+              text-align: center;
+              font-weight: bold;
+              font-size: 9px;
+              line-height: 10px;
+              text-align: center;
+
+              border: 2px solid #11a249;
+              border-radius: 5px;
+              padding-top: 1px;
+              color: #11a249;
+            "
+          >
+            INSTOCK
+          </p>
+        </div>
+        <hr style="width: 290px; color: rgba(220,217,217, 0.4);"></hr>
+        <div style="width: 290px; height: 55px; background-color: #fff;margin-bottom:-20px">
+          <p style="font-size: 10px; color: #83919b; padding-left: 70px">
+            Last Updated : July 30th, 2:11 AM
+          </p>
+          <img style="position: relative; left: 2px;" src="../assets/img/aliexpress.png" alt="aliexpress" />
+          <p
+            style="
+              position: relative;
+              top: -25px;
+              left: 120px;
+              font-family: Roboto;
+              font-size: 12px;
+              color: #082337;
+            "
+          >
+            ₹92.00
+          </p>
+          <p
+            style="
+              position: relative;
+              width: 70px;
+              height: 13px;
+              top: -46px;
+              left: 208px;
+
+              text-align: center;
+              font-weight: bold;
+              font-size: 9px;
+              line-height: 11px;
+              text-align: center;
+
+              border: 2px solid #f90307;
+              border-radius: 5px;
+              padding-top: 1px;
+              color: #f90307;
+            "
+          >
+            OUT OF STOCK
+          </p>
+        </div>
+        <hr style="width: 290px; color: rgba(220,217,217, 0.4);"></hr>
+        <div style="width: 290px; height: 55px; background-color: #fff;margin-bottom:-20px">
+          <p style="font-size: 10px; color: #83919b; padding-left: 70px">
+            Last Updated : July 30th, 2:11 AM
+          </p>
+          <img style="margin-top: -2px; position: relative; left: 3px" src="../assets/img/daraz.png" alt="daraz" />
+          <p
+            style="
+              position: relative;
+              top: -17px;
+              left: 120px;
+              font-family: Roboto;
+              font-size: 12px;
+              color: #082337;
+            "
+          >
+            ₹92.00
+          </p>
+          <p
+            style="
+              position: relative;
+              width: 47px;
+              height: 13px;
+              top: -35px;
+              left: 230px;
+
+              text-align: center;
+              font-weight: bold;
+              font-size: 9px;
+              line-height: 10px;
+              text-align: center;
+
+              border: 2px solid #11a249;
+              border-radius: 5px;
+              padding-top: 1px;
+              color: #11a249;
+            "
+          >
+            INSTOCK
+          </p>
+        </div>
+        <hr style="width: 290px; color: rgba(220,217,217, 0.4);"></hr>
+        <div style="width: 290px; height: 55px; background-color: #fff;margin-bottom:-20px">
+          <p style="font-size: 10px; color: #83919b; padding-left: 70px">
+            Last Updated : July 30th, 2:11 AM
+          </p>
+          <img style="margin-top: -2px; position: relative; left: 3px" src="../assets/img/daraz.png" alt="daraz" />
+          <p
+            style="
+              position: relative;
+              top: -20px;
+              left: 120px;
+              font-family: Roboto;
+              font-size: 12px;
+              color: #082337;
+            "
+          >
+            ₹92.00
+          </p>
+          <p
+            style="
+              position: relative;
+              width: 70px;
+              height: 13px;
+              top: -36px;
+              left: 208px;
+
+              text-align: center;
+              font-weight: bold;
+              font-size: 9px;
+              line-height: 11px;
+              text-align: center;
+
+              border: 2px solid #f90307;
+              border-radius: 5px;
+              padding-top: 1px;
+              color: #f90307;
+            "
+          >
+            OUT OF STOCK
+          </p>
+        </div>
+        <hr style="width: 290px; color: rgba(220,217,217, 0.4);"></hr>
+        <div style="width: 290px; height: 55px; background-color: #fff;margin-bottom:-20px">
+          <p style="font-size: 10px; color: #83919b; padding-left: 70px">
+            Last Updated : July 30th, 2:11 AM
+          </p>
+          <img style="position: relative; left= 2px;" src="../assets/img/aliexpress.png" alt="aliexpress" />
+          <p
+            style="
+              position: relative;
+              top: -24px;
+              left: 120px;
+              font-family: Roboto;
+              font-size: 12px;
+              color: #082337;
+            "
+          >
+            ₹92.00
+          </p>
+          <p
+            style="
+              position: relative;
+              width: 70px;
+              height: 13px;
+              top: -45px;
+              left: 208px;
+
+              text-align: center;
+              font-weight: bold;
+              font-size: 9px;
+              line-height: 11px;
+              text-align: center;
+
+              border: 2px solid #f90307;
+              border-radius: 5px;
+              padding-top: 1px;
+              color: #f90307;
+            "
+          >
+            OUT OF STOCK
+          </p>
+        </div>
+        <hr style="width: 290px; color: rgba(220,217,217, 0.4);"></hr>
+      </div>
+      <div id="shade"style="position: absolute; top: 160px; z-index: 1; background-color: rgba(255,255,255, 0.85); width: 320px; height: 370px; display: none;"></div>
+      <script>
+        function Function(){
+          var x = document.getElementById("shade");
+          if(x.style.display ==="none"){
+            x.style.display = "block";
+          }
+          else {
+            x.style.display = "none";
+          }
+        }
+      </script>
+    </div>
   </body>
 </html>
